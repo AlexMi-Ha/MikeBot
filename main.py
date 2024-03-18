@@ -87,5 +87,6 @@ async def called_once_a_day(channel):
 
 if __name__ == "__main__":
     # client.loop.create_task(background_task())
+    print("Hello World")
     client.run(os.getenv('MIKE_TOKEN'))
     pass
