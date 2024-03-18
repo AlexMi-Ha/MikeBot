@@ -4,6 +4,9 @@ from datetime import datetime, time, timedelta
 import asyncio
 import plan
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix="///", intents=intents)
